@@ -1,3 +1,7 @@
+--root {
+    --primary-text: darkblue;
+}
+
 body{
     margin: 0;
 }
@@ -46,7 +50,7 @@ article::after {
 }
 
 .article-title {
-    color: darkblue;
+    color: var(--primary-text);
     font-size: 48px;
     font-weight: 900;
 }
@@ -60,7 +64,7 @@ article::after {
 article section {
     text-align: justify;
     padding: 0 20px;
-    color: darkblue; 
+    color: var(--primary-text); 
     font-size: 24px;
 }
 
