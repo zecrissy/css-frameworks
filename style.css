@@ -1,9 +1,13 @@
---root {
+:root {
     --primary-text: darkblue;
+    --bg-color: white;
 }
 
 body{
     margin: 0;
+    background-color: var(--bg-color);
+    font-family: 'Damion', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
